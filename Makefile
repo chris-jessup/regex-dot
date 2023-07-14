@@ -1,7 +1,6 @@
 
-all: node_modules/@types node_modules/regexp-tree regex_dot.js trie_dot.js 
+all: regex_dot.js trie_dot.js 
 
-node_modules/@types node_modules/regexp-tree: install
 
 install:
 	npm install @types/node --save-dev

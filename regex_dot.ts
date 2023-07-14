@@ -7,6 +7,11 @@ function getre() {
         .toRegExp();
 }
 
+function newre(){
+    return regexpTree.parse(/a|b/);
+}
+
 module.exports = {
-    getre: getre
+    getre: getre,
+    newre: newre
 }
